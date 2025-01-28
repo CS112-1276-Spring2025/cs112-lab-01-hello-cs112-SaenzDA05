@@ -5,6 +5,10 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to CS112!");
         Main.printaboutMe();
+        Comic favirote = new Comic("Stan lee", "Ramos", "Delgado", "vengence", 30);
+        favirote.setTitle("The Dark Knight");
+        favirote.setIssueNum(1);
+        System.out.println("My favirote comic is " + favirote);
 
     }
     
